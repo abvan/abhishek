@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data & ML Engineer Portfolio</title>
+    <style>
+        :root {
+            --dark-grey: #333333;
+            --medium-grey: #666666;
+            --light-grey: #f5f5f5;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: white;
+            color: var(--dark-grey);
+            line-height: 1.6;
+        }
+        
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        .left-section {
+            width: 25%;
+            background-color: var(--light-grey);
+            padding: 60px 40px;
+            position: relative;
+        }
+        
+        .right-section {
+            width: 75%;
+            padding: 20px 40px;
+        }
+        
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            color: var(--dark-grey);
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 2px 0 20px;
+            font-weight: 600;
+            color: var(--dark-grey);
+            border-bottom: 2px solid var(--medium-grey);
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            margin: 15px 0 5px;
+            font-weight: 600;
+            color: var(--dark-grey);
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: var(--medium-grey);
+        }
+        
+        .job-title {
+            font-size: 1.2rem;
+            color: var(--medium-grey);
+            margin-bottom: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .contact-icon {
+            width: 20px;
+            margin-right: 10px;
+            color: var(--medium-grey);
+        }
+        
+        .contact-text {
+            color: var(--medium-grey);
+        }
+        
+        .skill-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .skill-badge {
+            background-color: var(--light-grey);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--dark-grey);
+        }
+        
+        .experience-item {
+            margin-bottom: 30px;
+        }
+        
+        .company-date {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .company {
+            font-weight: 600;
+        }
+        
+        .date {
+            color: var(--medium-grey);
+        }
+        
+        .education-item {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .left-section, .right-section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="/api/placeholder/400/400" alt="Profile Photo" class="profile-photo">
+            
+            <h1>Abhishek Chavan</h1>
+            <p class="job-title">Data Engineer & Machine Learning Engineer</p>
+            
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>P.G Diploma in Data Science and Deep Learning</h3>
+                <p>IIT Madras | 2023 - 2024</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelors in Engineering(B.E)</h3>
+                <p>Mumbai University | 2017 - 2021</p>
+            </div>
+            
+            <h2>Contact</h2>
+            <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span class="contact-text">abschavan99@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span class="contact-text">+91-9821633630</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">🔗</span>
+                <span class="contact-text">https://www.linkedin.com/in/abhishek-chavan-1a4b7c66/</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">🐙</span>
+                <span class="contact-text">github.com/yourusername</span>
+            </div>
+        </div>
+        
+        <div class="right-section">
+            
+            <h2>About Me</h2>
+            <p>I am a data engineer specializing in Big Data, Deep Learning, and Generative AI. I have a keen interest in leveraging Generative AI to drive innovation in data-driven solutions, from text generation to automated decision-making systems. Beyond technical expertise, I am passionate about architecting efficient data solutions that enhance performance and scalability.</p>
+            
+            <h2>Technical Skills</h2>
+            <div class="expertise-areas">
+                <div class="expertise-item">
+                    <h4>Data Engineering : </h4>
+                    <p>Apache Spark, Airflow, Kafka, Data Warehousing, Data Modelling</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>Machine Learning :</h4>
+                    <p>Scikit-learn, TensorFlow, PyTorch, NLP , LangChain</p>
+                </div>
+                <div class="expertise-item">
+                    <h4>DevOps</h4>
+                    <p>Git/GitHub, Azure DevOps, Kubernetes, Docker</p>
+                </div>
+            </div>
+            
+            <h2>Work Experience</h2>
+            
+            <div class="experience-item">
+                <div class="company-date">
+                    <span class="company">Senior Data Engineer - Saint Gobain Indec</span>
+                    <span class="date">Jan 2023 - Present</span>
+                </div>
+                <p>Designed and implemented scalable data pipelines processing terabytes of data daily. Led the migration from batch processing to real-time analytics, reducing latency by 85% and enabling immediate business insights.</p>
+                <ul>
+                    <li>TBD...</li>
+                    <li>Implemented data quality monitoring reducing data incidents by 60%</li>
+                    <li>Mentored junior engineers and established team best practices</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="company-date">
+                    <span class="company">Data Engineer - Capgemini</span>
+                    <span class="date">Jun 21' - Jan 24'</span>
+                </div>
+                <p>TBD...</p>
+                <ul>
+                    <li>TBD...</li>
+                    <li>TBD...</li>
+                    <li>TBD...</li>
+                </ul>
+            </div>
+            
+            <h2>Projects</h2>
+            <p>In Progress...</p>
+    </div>
+</body>
+</html>
